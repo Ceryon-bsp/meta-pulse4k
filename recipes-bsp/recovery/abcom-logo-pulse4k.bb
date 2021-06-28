@@ -1,0 +1,8 @@
+SRCDATE = "20210329"
+
+require abcom-logo.inc
+
+SRC_URI[md5sum] = "4ba0efd26ff114d20bf99561d2ba7c72"
+SRC_URI[sha256sum] = "35942d7c024ec0940f1863646012272c6c596e8117f3ecc7196652280dd799d9"
+
+COMPATIBLE_MACHINE = "pulse4k"
