@@ -1,6 +1,6 @@
 require kernel-module-mali-utgard.inc
 
-SRC_URI += "http://121.143.3.35/pulse4k/mali/0001-hi3798mv200-support.patch"
+SRC_URI += "file://0001-hi3798mv200-support.patch"
 
 MALI_PACKAGE_NAME = "DX910-SW-99002-${PV}"
 
