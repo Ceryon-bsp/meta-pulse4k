@@ -2,7 +2,7 @@ SRCDATE = "20210329"
 
 require abcom-recovery.inc
 
-SRC_URI[md5sum] = "74cb1c72df1e03cc9667f571550a2037"
-SRC_URI[sha256sum] = "ed35cdfb2d5c83fa8df2fcc7a42e2b5103b62119de670ffbfdedaf221d86e070"
+SRC_URI[md5sum] = "2fe5c6aa2936fff3c3c81e20c083e35f"
+SRC_URI[sha256sum] = "dbb3aa8a20a5ffb9795c94edad4abc08a9f5f36752c151d6791e80bfe9032871"
 
 COMPATIBLE_MACHINE = "pulse4k"
