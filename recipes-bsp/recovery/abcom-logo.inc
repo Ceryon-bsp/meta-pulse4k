@@ -7,7 +7,7 @@ PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 inherit deploy
 
-SRC_URI = "http://121.143.3.35/pulse4k/recovery/${MACHINE}-logo-${SRCDATE}.zip"
+SRC_URI = "http://121.143.3.35/${MACHINE}/recovery/${MACHINE}-logo-${SRCDATE}.zip"
 
 S = "${WORKDIR}"
 

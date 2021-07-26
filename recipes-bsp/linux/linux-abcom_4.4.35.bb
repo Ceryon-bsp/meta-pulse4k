@@ -6,7 +6,7 @@ VER ?= "${@bb.utils.contains('TARGET_ARCH', 'aarch64', '64' , '', d)}"
 
 KERNEL_RELEASE = "4.4.35"
 SRCDATE = "20210203"
-COMPATIBLE_MACHINE = "pulse4k"
+COMPATIBLE_MACHINE = "(pulse4k|pulse4kmini)"
 
 inherit kernel machine_kernel_pr
 MACHINE_KERNEL_PR_append = "r0.1"

@@ -6,7 +6,7 @@ PR = "${SRCDATE}"
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 VER ?= "${@bb.utils.contains('TARGET_ARCH', 'aarch64', '64' , '', d)}"
 
-SRC_URI = "http://121.143.3.35/pulse4k/drivers/${MACHINE}-libs${VER}-${SRCDATE}.zip"
+SRC_URI = "http://121.143.3.35/${MACHINE}/drivers/${MACHINE}-libs${VER}-${SRCDATE}.zip"
 
 S = "${WORKDIR}"
 
