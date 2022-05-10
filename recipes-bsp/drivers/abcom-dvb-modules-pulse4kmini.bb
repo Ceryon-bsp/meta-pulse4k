@@ -1,12 +1,12 @@
 KV = "4.4.35"
-SRCDATE = "20220315"
+SRCDATE = "20220505"
 
 PROVIDES = "virtual/blindscan-dvbs"
 
 require abcom-dvb-modules.inc
 
-SRC_URI[md5sum] = "9ce45c0cbf58204462038fb2403c6194"
-SRC_URI[sha256sum] = "0eacd706184697acb278428d2a2314b7d813e732ce90650d227b08bc57b80110"
+SRC_URI[md5sum] = "842157ea7bbcf2f97c2ee0d307cd71ab"
+SRC_URI[sha256sum] = "452ac81f52b9cfb70cac0ae77a419e5ad3899c66eb5f62a44abd130a9b5dea60"
 
 COMPATIBLE_MACHINE = "pulse4kmini"
 
